@@ -8,7 +8,7 @@ body {
 p {
  color : #f2f3ff;
  background-image: linear-gradient(to right, #a1dbe6 , #2badc4);
- filter: drop-shadow(-5px 0px 2px #3e49ed);
+ filter: drop-shadow(-5px 0px 2px #6365ad);
 }
 h1 {
  margin : 80px;
