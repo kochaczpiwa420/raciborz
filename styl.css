@@ -7,7 +7,7 @@ body {
 }
 p {
  color : #a1dbe6;
- background-image: linear-gradient(to right, #EDEBA0 , #D3FAD6);
+ background-image: linear-gradient(to right, #a1dbe6 , #2badc4);
  filter: drop-shadow(-5px 0px 2px #EDEBA0);
 }
 h1 {
