@@ -1,0 +1,28 @@
+body {
+ background : #D3FAD6;
+ text-align : center;
+ margin : 50px;
+ font-family : Verdana;
+ scroll-behavior : smooth !important;
+}
+p {
+ color : #928C6F;
+ background-image: linear-gradient(to right, #EDEBA0 , #D3FAD6);
+ filter: drop-shadow(-5px 0px 2px #EDEBA0);
+}
+h1 {
+ margin : 80px;
+ border : 2px #928C6F;
+ background : #EDEBA0;
+}
+li {
+ text-align : left;
+}
+img {
+ filter: drop-shadow(10px 10px 4px #928C6F);
+}
+table {
+  text-align : center;
+  background : #D1EFB5;
+  opacity : 0.9
+}
