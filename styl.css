@@ -6,7 +6,7 @@ body {
  scroll-behavior : smooth !important;
 }
 p {
- color : #928C6F;
+ color : #a1dbe6;
  background-image: linear-gradient(to right, #EDEBA0 , #D3FAD6);
  filter: drop-shadow(-5px 0px 2px #EDEBA0);
 }
