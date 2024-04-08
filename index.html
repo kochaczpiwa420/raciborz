@@ -7,6 +7,24 @@
 	<meta name="description" content="Strona glowna">
 	<meta name="keywords" content="szkoła, lekcje, temat, nauka, html">
 	<meta name="author" content="Szymon Kempe">
+	  // LISTING 1.0
+
+<SCRIPT language="javascript" type="text/javascript">
+<!-- Ukrycie przed przeglądarkami nie obsługującymi JavaScriptów
+var MSIE = navigator.appName == "Microsoft Internet Explorer"?true:false;
+var NN = navigator.appName == "Netscape"?true:false;
+function blockMouseClick(evt)
+{
+  if(MSIE && (event.button == 2)){
+      alert("Blokada prawego przycisku myszy");
+      return false;
+  }
+  else if(NN && ((evt.which == 2) || (evt.which == 3))){
+      alert("Blokada prawego przycisku myszy");
+      return false;
+  }
+}
+document.onmousedown=blockMouseClick;
   </head>
   <body>
   <h1>Projekt strona internetowa</h1>
