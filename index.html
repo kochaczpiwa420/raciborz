@@ -14,15 +14,16 @@
 	function blockMouseClick(evt)
 	{
   	if(MSIE && (event.button == 2)){
-      		alert("JEBAĆ IZRAEL");
+      		alert("Blokada prawego przycisku myszy.");
       	return false;
   	}
  	 else if(NN && ((evt.which == 2) || (evt.which == 3))){
      		alert("Blokada prawego przycisku myszy");
-      	return false;
+      		return false;
+		}
 	}
 	document.onmousedown=blockMouseClick;
-	}
+	</script>
   </head>
   <body>
   <h1>Projekt strona internetowa</h1>
