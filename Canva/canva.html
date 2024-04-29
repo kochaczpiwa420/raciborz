@@ -19,30 +19,6 @@ c.strokeRect(20,20,50,50);
 </head>
 <body>
 <body bgcolor="#404040">
-<canvas id="paper" width="500" height="500">
-</canvas>
-
-<canvas width=800 height=600></canvas>
-<div class="right">
-  coord: <span id=coord></span><br>
-  radius: <span id=radius></span><br>
-  tool: <select id=tool>
-  <option>lineTo</option>
-  <option>arc</option>
-  <!--option>arcTo</option-->
-  </select>
-  <br/>
-  <small>(shift-click for moveTo)</small>
-  <br/><br/>
-  <select multiple id=drawq></select>
-  <br/>
-  <button id=undo>undo</button>
-  <br/><br/>
-  
-  <button id=generate>generate</button>
-  <br/>
-  <textarea id=code rows=20 lines=20></textarea>
-</div>
 <br>
 <script>
 const canvas = document.getElementById("myCanvas");
