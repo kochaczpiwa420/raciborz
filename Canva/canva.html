@@ -1,15 +1,24 @@
-<!doctype html>
-<html lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<title>Moja pierwsza strona</title>
-		<meta name="description" content="Oto moja pierwsza strona">
-		<meta name="keywords" content="szkola, lekcje, temat, nauka,">
-    <link rel="stylesheet" type="text/css" href="szablon3.css">
-	</head>
-    <body>
-    <canvas id="paper" width="500" height="500">
-    </canvas>
-    </body>
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>obrazki</title>
+<script>
+window.onload=function(){
+var canvas=document.getElementById("paper"),
+c=canvas.getContext("2d");
+c.fillStyle="black";
+c. fillRect(0, 0, canvas.width, canvas.height);
+c.fillStyle="red";
+c. fillRect(20, 20, 50, 50);
+c.strokeStyle="white";
+c.lineWidth=10;
+c.strokeRect(20,20,50,50);
+} ;
+</script>
+</head>
+<body>
+<canvas id="paper" width="500" height="500">
+</canvas>
+</body>
 </html>
