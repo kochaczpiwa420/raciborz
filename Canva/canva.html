@@ -43,5 +43,17 @@ c.strokeRect(20,20,50,50);
   <br/>
   <textarea id=code rows=20 lines=20></textarea>
 </div>
+<br>
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+ctx.beginPath();
+ctx.moveTo(100,20);
+ctx.lineTo(180,100);
+ctx.lineTo(20,100);
+ctx.lineTo(100,20);
+ctx.stroke();
+</script>
 </body>
 </html>
